@@ -53,7 +53,7 @@ public class PostsActivity extends AppCompatActivity {
 
             @Override
             public void onResponse(Call<ArrayList<Post>> call, Response<ArrayList<Post>> response) {
-                Log.d(TAG, "onResponse: ");
+                Log.d(TAG, "onResponse: 1");
                 postAdapter.updatePosts(response.body());
             }
 
